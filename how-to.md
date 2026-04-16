@@ -225,7 +225,7 @@ curl -H "Host: alis.localhost" localhost:8080
 Run inside backend container:
 
 ```bash
-bench new-site wiki.localhost \
+bench new-site alis.localhost \
   --db-host mariadb \
   --mariadb-root-password 123 \
   --admin-password admin_password_here
